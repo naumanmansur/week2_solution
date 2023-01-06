@@ -1,0 +1,167 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+
+header{
+  margin-bottom: 30px;
+  width: 100%;
+  font-family: Comic sans MS;
+  font-style: bold;
+  color: black;
+  background-color: lightgray;
+  border: 2px solid;
+  padding: 20px;
+  position: relative;
+}
+
+.navbar-default{
+  background-color: lightgray;
+  border-color: lightgray;
+}
+
+.container{
+  padding-right: 15px;
+  padding-left: 44px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.navbar-brand{
+  font-family: Comic sans MS;
+  font-style: bold;
+  font-size: 1.6em;
+  color: black;
+  float: left;
+  position: absolute;
+
+}
+
+.navbar-toggle {
+
+  position: relative;
+  float: right;
+  clear: both;
+  padding: 2px;
+  border: 1px;
+  margin-top: 15px;
+}
+
+#nav-list {
+  margin-top: 50px;
+}
+
+.menu-text {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+h2 {
+  margin-bottom: 60px;
+  font-family: Comic sans MS;
+  font-style: bold;
+  color: black;
+  text-align: center;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+.background {
+  background-color: lightgray;
+  font-family: Comic sans MS;
+  height: fit-content;
+  border: 2px solid black;
+  margin: 5px;
+  font-style: bold;
+  color: black;
+  padding: 10px;
+  
+}
+
+.chicken, .beef, .sushi {
+  
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  padding: 2.5px 20px 2.5px 20px;
+  font-family: Comic sans MS;
+  font-style: bold;
+  font-size: 1.6em;
+  color: black;
+}
+
+
+p {
+  clear: both;
+  padding-top: 10px;
+}
+
+
+
+
+/********** Large devices only **********/
+
+
+@media (min-width: 992px)  {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, 
+  .col-md-10, .col-md-11, .col-md-12 {
+
+    float: left;
+  }
+
+  .col-md-4 {
+    width: 32%;
+  }
+
+
+  .navbar-toggle{
+    display: none;
+  }
+
+}
+
+
+
+/********** Tablet View **********/
+@media (min-width: 768px) and (max-width: 991.999px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, 
+  .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+  }
+  
+
+  .col-sm-6 {
+    width: 48.5%;
+  }
+  
+  .col-sm-12 {
+    width: 98.5%;
+  }
+
+  .navbar-toggle{
+    display: none;
+  }
+
+}
+
+
+/********** Mobile View **********/
+@media (max-width: 767.999px) {
+  .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, 
+  .col-xs-10, .col-xs-11, .col-xs-12 {
+ 
+  float: left;
+  }
+
+  .col-xs-12 {
+    width: 98%;
+  }
+
+}
+
